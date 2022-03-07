@@ -1,0 +1,131 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mitr',sans-serif;
+    color: #45454D;
+    background-color: #F5FAFF;
+    font-size: 1.2rem;
+    font-weight: medium;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem;
+}
+
+
+.App{
+    padding: 0 20rem;
+}
+h1{
+    font-size: 3rem;
+    font-weight: medium;
+
+}
+span{
+    color: #037FFF;
+}
+.title{
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 0;
+    
+
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: normal;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.596);
+}
+
+.item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+    padding-bottom: 6rem;
+    
+}
+
+.item-container{
+    overflow: hidden;
+}
+
+.item-con{
+    display: flex;
+    width: 100%;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    background-size: cover;
+    border: 2px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.50rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    overflow: hidden;
+    
+    
+}
+
+.item-con:hover {
+    background-color: #037FFF;
+    color: #FFF;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+
+}
+
+.item-container > img{
+    width: 100%;
+    transition: all .3s ease-in-out;
+}
+
+.buttons{
+    width: 70%;
+    margin: 3rem auto;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.btn{
+    padding: .5rem 2rem;
+    border: 1px solid transparent;
+    border-color: #037FFf;
+    background-color: #FFF ;
+    border-radius: 0.25rem;
+    font-family: 'Mitr';
+    font-size: 1.25rem;
+    color: #037FFf;
+    
+    
+}
+
+.btn:not(:last-child){
+    margin-right: 1rem;
+}
+
+.btn:hover{
+    background-color: #037FFf;
+    font-size: 1.25rem;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.btn:active, .btn:focus{
+    outline: none;
+    border: none;
+}
